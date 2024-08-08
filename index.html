@@ -1,184 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Google font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
-    <!--My style sheet-->
-    <link rel="stylesheet" href="style.css">
-    <!--CDN font-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Udemy</title>
+   <!--my style sheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+<!--cdn link-->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    
 </head>
-
+<!--navbar-->
 <body>
-    <diV class="navbar">
-        <div class="navbar__s1">
-            <h1 class="navbar__s1__title">Udemy</h1>
-        </div>
-
-        <div class="navbar__s2">
-
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input placeholder="Search anything about Tech, Business, Art....">
-        </div>
-
-        <div class="navbar__s3">
-            <p>course</p>
-            <!-- <p>My learning</p> -->
-             <div class="mylearning">
-                <p>My learning</p>
-             </div>
-             <div class="mylearning__popup">
-                <P class="learn__para">You did not purchase anything yet</P>
-            </div>
-          
-            <i class="fa-solid fa-cart-shopping"></i>
-            <i class="fa-solid fa-bell"></i>
-            <i class="fa-solid fa-user"></i>
-        </div>
-
-    </diV>
-    <!--categories-->
-    <div class="categories">
-        <p>Business</p>
-        <p>IT&software</p>
-        <p>Marketing</p>
-        <p>Design</p>
-        <p>Personal development</p>
+<div class="navbar">
+    <div class="navbar__sec1">
+        <h1>Udemy</h1>
     </div>
-    <!--sale image-->
-    <div class="sales__image">
-        <img src="./images/saleimage.jpg" alt="salesimage">
-<div class="saleimage__offer">
-    <h1>Skill that drives you forward</h1>
-    <p>Technology and world of work change fast-with us, you're faster. Get the skills to achieve goals and stay competitive </p>
-    <h3>Today offer 20%</h3>
-    <div class="plans">
-        <h4>View plans</h4>
+    <div class="navbar__sec2">
+        
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input placeholder="Search Tech, Business, Marketing...">
     </div>
+    <div class="navbar__sec3">
+        <p>Course</p>
+        <p>My learning</p>
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-solid fa-bell"></i>
+        
+        <div class="popup">
+            <p>You are not purchase yet</p>
+        
+        </div>
+    
+    </div>
+    <div class="navbar__s4">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    
 </div>
-    </div>
-    <!--recommended-->
-    <div class="recommended">
-        <h1>Recommended for you</h1>
-        <p>Pick the best</p>
-        <div class="container">
-            <div class="coursecard">
-                <img src="./images/c1.jpg" src="Programming">
-                <h4>PHP programming 2024</h4>
-                <p>col steele</p>
-                <p>4.9⭐⭐⭐⭐</p>
-                <p>449 <del>899</del></p>
-            </div>
 
+<!--catergories-->
+<div class="navbar__categories">
+    <p>Business</p>
+    <p>IT&Software</p>
+    <p>Marketing</p>
+    <p>Design</p>
+    <p>Security</p>
 
-            <div class="coursecard">
-                <img src="./images/c2.jpg" src="Programming">
-                <h4>Python programming 2024</h4>
-                <p>col steele</p>
-                <p>3.9⭐⭐⭐</p>
-                <p>449 <del>899</del></p>
-            </div>
-            <div class="coursecard">
-                <img src="./images/c3.jpg" src="Programming">
-                <h4>Web development</h4>
-                <p>col steele</p>
-                <p>4.9⭐⭐⭐⭐</p>
-                <p>449 <del>899</del></p>
-            </div>
-            <div class="coursecard">
-                <img src="./images/c4.jpg" src="Programming">
-                <h4> Java programming</h4>
-                <p>col steele</p>
-                <p>4.8⭐⭐⭐⭐</p>
-                <p>449 <del>899</del></p>
-            </div>
-        </div>
-    </div>
-    <!--topics-->
-
-<div class="topics">
-    <div class="topics__container">
-        <h1>Topics recommend for you</h1>
-        <div class="topics__title">
-          
-<p>HTML</p>
-<p>CSS</p>
-<p>Azure</p>
-<p>AWS</p>
-<p>Docker</p>
-<p>Design</p>
-<p>UI/UX</p>
-<p>SQL</p>
-        </div>
-
-
-    </div>
 </div>
-    </div>
-
-    <div class="coursecard__final">
-        <div class="coursecard">
-            <img src="./images/c8.jpg" src="Programming">
-            <h4>Dart lanuguage</h4>
-            <p>col steele</p>
-            <p>4.9⭐⭐⭐⭐</p>
-            <p>449 <del>899</del></p>
+<!--sales image-->
+<div class="salesimage">
+    <img src="./images/saleimage.jpg" alt="saleimg">
+    <div class="offerbox">
+        <h2>Skill that drive you forward</h2>
+        <p>Technology and world of work change fast with-us,you're faster. Get the skill to achieve goals and stay competitive</p>
+        <h3>Today offer 30%</h3>
+        <div class="planbox">
+            <h3>View plan</h3>
         </div>
+     </div>
+           
+    <h1>Recommended for you</h1>
+    <p>Pick the best</p>
+    
+</div>
+<!--courses-->
+<div class="navbar__course">
+    <div class="coursecard1">
+        <img src="./images/c1.jpg" alt="courseimgae1">
+        <h3>PHP programming</h3>
+        <p>Col Steels</p>
+        <p>4.2⭐⭐⭐⭐</p>
+        <p>399  <del>499</del></p>
+    </div>
+    <div class="coursecard1">
+        <img src="./images/c2.jpg" alt="courseimgae1">
+        <h3>Web development</h3>
+        <p>Col Steels</p>
+        <p>4.1⭐⭐⭐⭐</p>
+        <p>299  <del>599</del></p>
+    </div>
+    <div class="coursecard1">
+        <img src="./images/c3.jpg" alt="courseimgae1">
+        <h3>Python programming</h3>
+        <p>Col Steels</p>
+        <p>3.9⭐⭐⭐</p>
+        <p>699  <del>799</del></p>
+    </div>
+    <div class="coursecard1">
+        <img src="./images/c4.jpg" alt="courseimgae1">
+        <h3>Javascript programming</h3>
+        <p>Col Steels</p>
+        <p>4.9⭐⭐⭐⭐</p>
+        <p>899 <del>999</del></p>
+      
+    </div>
+      
+   
 
-
-        <div class="coursecard">
-            <img src="./images/c5.jpg" src="Programming">
-            <h4>Golang 2024</h4>
-            <p>col steele</p>
+       
+        
+    
+</div>
+<!--topic-->
+<div class="topicsbox">
+    <h3>Topics recommnended for you</h3>
+    
+  </div>
+  <!--recommendedbox-->
+<div class="recommendedbox">
+    <p>HTML</p>
+    <p>CSS</p>
+    <p>Node js</p>
+    <p>Angular</p>
+    
+</div>
+<div class="recommendedbox2">
+    <p>Express js</p>
+    <p>React</p>
+    <p>Mango DB</p>
+    <p>My SQL</p>
+    </div>
+    <!--course card 2-->
+    <div class="navbar__course">
+        <div class="coursecard1">
+            <img src="./images/c4.jpg" alt="courseimgae1">
+            <h3>Java core programming</h3>
+            <p>Col Steels</p>
+            <p>4.2⭐⭐⭐⭐</p>
+            <p>399  <del>499</del></p>
+        </div>
+        <div class="coursecard1">
+            <img src="./images/c2.jpg" alt="courseimgae1">
+            <h3>Web development</h3>
+            <p>Col Steels</p>
+            <p>4.1⭐⭐⭐⭐</p>
+            <p>299  <del>599</del></p>
+        </div>
+        <div class="coursecard1">
+            <img src="./images/c1.jpg" alt="courseimgae1">
+            <h3>PHP programming</h3>
+            <p>Col Steels</p>
             <p>3.9⭐⭐⭐</p>
-            <p>499 <del>799</del></p>
+            <p>699  <del>799</del></p>
         </div>
-        <div class="coursecard">
-            <img src="./images/c6.jpg" src="Programming">
-            <h4>Web design</h4>
-            <p>col steele</p>
+        <div class="coursecard1">
+            <img src="./images/c8.jpg" alt="courseimgae1">
+            <h3>Javascript programming</h3>
+            <p>Col Steels</p>
             <p>4.9⭐⭐⭐⭐</p>
-            <p>399 <del>899</del></p>
+            <p>899 <del>999</del></p>
+          
         </div>
-        <div class="coursecard">
-            <img src="./images/c7.jpg" src="Programming">
-            <h4> JavaScript 2023</h4>
-            <p>col steele</p>
-            <p>4.8⭐⭐⭐⭐</p>
-            <p>799 <del>999</del></p>
-        </div>
+      
+        
+              
+        
     </div>
-    <!--footer-->
-    <div class="footer">
-        <div class="footer__sec1">
-            <div class="footer__one">
-                <P>udemy business</P>
-                <P>Teach on Udemy</P>
-                <P>Get the app</P>
-                <P>About us</P>
-                <P>Contact us</P>
-            </div>
-            <div class="footer__two">
-                <p>Careers</p>
-                <p>Blogs</p>
-                <p>Help and Support</p>
-                <p>Affiliate</p>
-                <p>Investors</p>
-            </div>
+    <!--navbar coursecard 3-->
+    <div class="navbar__course">
+        <div class="coursecard1">
+            <img src="./images/c5.jpg" alt="courseimgae1">
+            <h3>C programming</h3>
+            <p>Col Steels</p>
+            <p>4.2⭐⭐⭐⭐</p>
+            <p>399  <del>499</del></p>
         </div>
-        <div class="footer__sec2">
-            <h1>Udemy</h1>
-            <P>&copy; Udemy, Inc</P>
+        <div class="coursecard1">
+            <img src="./images/c3.jpg" alt="courseimgae1">
+            <h3>Web design</h3>
+            <p>Col Steels</p>
+            <p>4.1⭐⭐⭐⭐</p>
+            <p>299  <del>599</del></p>
         </div>
+        <div class="coursecard1">
+            <img src="./images/c7.jpg" alt="courseimgae1">
+            <h3>Golang programming</h3>
+            <p>Col Steels</p>
+            <p>3.9⭐⭐⭐</p>
+            <p>699  <del>799</del></p>
+        </div>
+        <div class="coursecard1">
+            <img src="./images/c2.jpg" alt="courseimgae1">
+            <h3>Dart language</h3>
+            <p>Col Steels</p>
+            <p>4.9⭐⭐⭐⭐</p>
+            <p>899 <del>999</del></p>
+          
+        </div>
+      
+        
+              
+        
     </div>
-</body>
+    <!--end box-->
+    <div class="endbox">
+        <div class="endbox__sec1">
+            <p>Udemy business</p>
+            <p>Tech business</p>
+            <p>Get the app</p>
+            <p>About us</p>
+            <p>Contact us</p>
+        </div>
 
+        <div class="endbox__sec2">
+            <p>Careers</p>
+            <p>Blogs</p>
+            <p>Help and Support</p>
+            <p>Affiliate </p>
+            <p>Investors</p>
+        </div>
+    </div>
+    <div class="udemytag">
+        <h1>Udemy</h1>
+        <p>&copy;udemy,inc</p>
+    </div>
+    
+
+</body>
 </html>
